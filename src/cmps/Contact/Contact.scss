@@ -1,0 +1,34 @@
+.contact-container {
+    @media only screen and (max-width: 700px) {
+        flex-direction: column;
+        height: 120vh;
+        justify-content: space-evenly;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    height: 50vh;
+    background-color: #363849;
+    .contact {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .me {
+            border-radius: 50%;
+            width: 250px;
+        }
+        .social-links {
+            img {
+                width: 25px;
+                height: 25px;
+                margin: 0 10px;
+            }
+        }
+    }
+}

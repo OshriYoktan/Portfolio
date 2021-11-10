@@ -1,0 +1,54 @@
+.portfolio-page {
+    @media only screen and (max-width: 700px) {
+        height: 160vh;
+    }
+    padding: 20px 15%;
+    height: 100vh;
+    .portfolio-container {
+        @media only screen and (max-width:700px) {
+            grid-template-columns: none;
+        }
+        display: grid;
+        gap: 40px 0;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 80px 20px;
+        .portfolio-project {
+            width: 70%;
+            border-radius: 7px;
+            padding: 20px;
+            height: 170px;
+            h4 {
+                color: #fec158;
+                font-size: 1.3rem;
+            }
+            h4,
+            p {
+                margin: 0;
+                color: #fec158;
+            }
+        }
+        .proj-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .taskman {
+            background-image: url("../../assets/projects/taskman.png");
+        }
+        .jukify {
+            background-image: url("../../assets/projects/jukify.png");
+        }
+        .mister-bit {
+            background-image: url("../../assets/projects/mister-bit.png");
+        }
+        .appsus {
+            background-image: url("../../assets/projects/appsus.png");
+        }
+    }
+    .bar {
+        border-radius: 20px;
+        width: 15%;
+        height: 10px;
+        background-color: #fec158;
+        bottom: 40px;
+    }
+}
