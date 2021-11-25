@@ -33,7 +33,7 @@ export const HomePage = () => {
                     <p>Full-Stack Web Developer specializing in advanced frameworks including React, VueJS, NodeJS and MongoDB. <br />
                         Army service at the Israeli Air Force Operations Room. <br />
                         Passionate about technology, striving to be the best, fast learner, and a team player. <br />
-                        Excellent organizational skills, out of the box creative thinker and Work well under pressure.</p>
+                        Excellent organizational skills, out of the box creative thinker and working well under pressure.</p>
                     <Link to="/portfolio">Have a look at my projects</Link>
                 </div>
             </div>
