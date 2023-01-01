@@ -17,6 +17,10 @@ export const PortfolioPage = () => {
                     <h4>Jukify</h4>
                     <p>Song Player Based On Spotify And Jukebox</p>
                 </div> </a>
+                <a className="portfolio-project proj-img socialed" target="_blank" rel="noreferrer" href="https://socialed.onrender.com/"><div>
+                    <h4>Socialed</h4>
+                    <p>Social Site Based On Linkedin</p>
+                </div> </a>
                 <a className="portfolio-project proj-img appsus" target="_blank" rel="noreferrer" href="https://oshriyoktan.github.io/Appsus/#/"><div>
                     <h4>Appsus</h4>
                     <p>Notes And Mailbox</p>
